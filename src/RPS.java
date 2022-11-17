@@ -99,10 +99,10 @@ public class RPS {
                     winner = "loses";
                 } else
                 {
-                    winner = "win1";
+                    winner = "wins";
                 }
                 break;
-            case "paper":
+            case "p":
                 if (playerB.equalsIgnoreCase("R"))
                 {
                     winner = "wins";
